@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.rramprasad.autosizingtextview.FontActivity">
+
+    <TextView
+        android:id="@+id/textview_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_8_0_oreo"
+        android:textSize="25sp"
+        android:fontFamily="@font/pacifico_regular"/>
+
+    <TextView
+        android:id="@+id/textview_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_8_0_oreo"
+        android:textSize="25sp"
+        android:fontFamily="@font/meriendaone_regular"
+        android:layout_below="@id/textview_1"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textview_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_8_0_oreo"
+        android:textSize="25sp"
+        android:fontFamily="@font/courgette_regular"
+        android:layout_below="@id/textview_2"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textview_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_8_0_oreo"
+        android:textSize="25sp"
+        android:fontFamily="@font/berkshireswash_regular"
+        android:layout_below="@id/textview_3"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textview_5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/android_release"
+        android:textSize="25sp"
+        android:fontFamily="@font/berkshireswash_regular"
+        android:layout_below="@id/textview_4"
+        android:layout_marginTop="20dp"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textview_6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/android_release"
+        android:textSize="25sp"
+        android:fontFamily="@font/berkshireswash_regular"
+        android:layout_below="@id/textview_5"
+        android:layout_marginTop="20dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="3sp"
+        />
+
+    <!--<android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textview_5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/android_release"
+        android:layout_below="@id/textview_4"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/berkshireswash_regular"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="12sp"
+        app:autoSizePresetSizes="@array/preset_sizes"
+        />-->
+
+</RelativeLayout>
+
+

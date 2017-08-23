@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preset_sizes">
+        <item>12sp</item>
+        <item>15sp</item>
+        <item>18sp</item>
+        <item>20sp</item>
+        <item>25sp</item>
+        <item>30sp</item>
+    </string-array>
+</resources>
